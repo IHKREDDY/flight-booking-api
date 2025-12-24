@@ -1,0 +1,17 @@
+# Build outputs
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# Secrets
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+.jira-config
+
+# Logs
+*.log
