@@ -4,14 +4,22 @@ obj/
 
 # IDE
 .vs/
-.vscode/
 *.user
+
+# VS Code - keep shared configs, ignore personal settings
+!.vscode/
+.vscode/*
+!.vscode/mcp.json
+!.vscode/extensions.json
+!.vscode/tasks.json
 
 # Secrets
 appsettings.*.json
 !appsettings.json
 !appsettings.Development.json
 .jira-config
+.env
+.env.local
 
 # Logs
 *.log
